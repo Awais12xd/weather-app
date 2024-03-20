@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#BFCFE7;
+    height: 100vh;
+    color: #40A2D8;
+    font-weight: 400;
+    outline: none;
+}
+.head{
+        font-family: "Bruno Ace SC", sans-serif;
+        font-weight: 400;
+        color:     #0B60B0;
+}
+.box{
+    min-height: 80vh;
+    height: auto;
+    border: 1px solid #15F5BA;
+    border-radius: 20px;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    
+}
+.amount-input{
+    outline: none;
+    border: 1px solid #0B60B0;
+    background-color: #F0F3FF;
+}
+img{
+    width: 30%;
+    height: 40px;
+    object-fit: cover;
+    border: none;
+}
+.conver{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 3px;
+    margin-top: 30px;
+
+}
+select{
+    border: none;
+    height: 40px;
+    background-color: #0B60B0;
+    color: white;
+}
+i{
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+.from-{
+    padding: 6px ;
+    border-radius: 10px;
+    background-color: #0B60B0;
+}
+.to-{
+    padding: 6px ;
+    border-radius: 10px;
+    background-color: #0B60B0;
+}
+.last{
+    gap: 10px;
+}
+.show{
+    padding: 10px ;
+    border: 1px solid #0B60B0;
+    color: #0B60B0;
+    border-radius: 10px;
+    background-color: #F0F3FF;
+}
+.convert{
+    padding: 10px;
+    background-color: #0B60B0;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+}
+.show:hover{
+    cursor: auto;
+}
+.convert:hover{
+    background-color: #207fd8;
+    border: none;
+}
